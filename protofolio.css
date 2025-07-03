@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="                      
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="                          
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="profile-picture">
+            <img src="YOUR_PHOTO_URL" alt="Your Photo">
+        </div>
+        <h1>YOUR_NAME</h1>
+        <p>YOUR_TITLE (e.g. Student, Developer)</p>
+        <button id="learn-more-btn">Learn More</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>YOUR_ABOUT_PARAGRAPH</p>
+        <div class="skills">
+            <h3>Skills:</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <!-- Add your projects here -->
+            <div class="project">
+                <h3>PROJECT_TITLE</h3>
+                <p>PROJECT_DESCRIPTION</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>YOUR_CONTACT_INFORMATION</p>
+        <form id="contact-form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button id="submit-btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; YOUR_NAME 2023</p>
+        <ul class="social-links">
+            <li><a href="YOUR_LINKEDIN_URL">LinkedIn</a></li>
+            <li><a href="YOUR_GITHUB_URL">GitHub</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
